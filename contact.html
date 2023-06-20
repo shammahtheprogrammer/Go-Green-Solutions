@@ -83,14 +83,14 @@
         <!-- images and paragraphs -->
         <div style="display: flex; align-items: center;">
           <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
-            <div class="card">
+            <div class="cardi">
               <i class="fas fa-mobile-alt fa-2x" style="margin-top: 4vw; color: green;"></i>
               <P>+2547819510376</P>
             </div>
           </div>
           
           <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
-            <div class="card">
+            <div class="cardi">
                 <i class="fas fa-home fa-2x" style="margin-top: 4vw; color: green;"></i>
                 <p>Longonot Place</p>
 
@@ -98,7 +98,7 @@
           </div>
           
           <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
-            <div class="card">
+            <div class="cardi">
                 <i class="fas fa-envelope fa-2x" style="margin-top: 4vw; color: green;"></i>
               <p style="font-size: 1.5vw;">info@gogreensolutions.com/org</p>
             </div>
@@ -113,15 +113,16 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            
           }
 
-          .card {
+          .cardi {
             width: 26vw;
             height: 15vw;
             border-radius: 1vw;
             background: #e0e0e0;
             margin-inline: 1vw;
-            margin-top: 5vw;
+            margin-top: 8vw;
             box-shadow: 20px 20px 60px #bebebe,
                         -20px -20px 60px #ffffff;
                         
@@ -130,27 +131,34 @@
       </main3>
 
 <!-- third main (main4) -->
-<main4 style="font-weight: bold; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vw; height: 70vw;">
+<main4 style="font-weight: bold; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 7vw; height: 60vw; margin-bottom: 3vw;">
   <div class="card1">
-    <form class="form">
-      <p class="form-title" style="margin-left: -5vw;">Get In Touch</p>
+    <form class="form" action="https://formspree.io/f/xqkorwvv" method="POST" >
+      <p class="form-title" style="margin-left: -5vw;">Get In Touch With Us</p>
       <div class="input-container">
-        <input type="text" placeholder="Enter name">
+        <input type="text" name="Name" placeholder="Full Name" required onsubmit="clearInputFields()">
       </div>
-
+    
       <div class="input-container">
-        <input type="email" placeholder="Enter email">
+        <input type="email" name="Email" placeholder="Email" required onsubmit="clearInputFields()">
       </div>
-
+    
       <div class="input-container">
-        <textarea placeholder="Enter your message" rows="3"></textarea>
+        <textarea name="Message" placeholder="Enter your message" rows="3" onsubmit="clearInputFields()"></textarea>
       </div>
-
+    
       <button style="margin-left: 17vw;" type="submit" class="submit">
         Submit
       </button>
     </form>
-
+    
+    <script>
+      function clearInputFields() {
+        document.getElementsByName("Name")[0].value = "";
+        document.getElementsByName("Email")[0].value = "";
+        document.getElementsByName("Message")[0].value = "";
+      }
+    </script>
   </div>
 </main4>
 
@@ -214,7 +222,7 @@
 
 .card1 {
   width: 50vw;
-  height: 40vw;
+  height: 35vw;
   border-radius: 1vw;
   background: #e0e0e0;
   margin-inline: 1vw;
@@ -225,8 +233,109 @@
 </style>
 
 
+<!-- fivth main (main4) -->
+<main5 style=" margin-top: 1vw; width: 100%; background-color: #fafbfd; filter: brightness(95%);">
+  <!-- content 5 -->
+  <div class="container0" style="background-color: #fafbfd; filter: brightness(95%); display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vw;">
+    <!-- heading -->
+    <h1 style="text-align: center; margin-top: 5vw;">What My Clients Say</h1>
+    <!-- line 4 -->
+    <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 2vw; font-weight: bold; margin-bottom: 5vw;"></div>
+    <!-- images and paragraphs -->
+    <div style="display: flex; align-items: center;">
+      <div class="card">
+        <div class="card-border-top">
+        </div>
+        <i class="fas fa-quote-left" style="color: #fff; margin-left: 11.7vw; margin-top: 3vw;"></i>
+        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        </div>
+        <p class="job" style="margin-top: 2vw;"> Go Green Solutions offers a comprehensive platform for individuals passionate about environmental conservation</p>
+        <div class="lineO"></div>
+        <span> Victor Shammah</span>
+      </div>
+
+      <div class="card">
+        <div class="card-border-top">
+        </div>
+        <i class="fas fa-quote-left" style="color: #fff; margin-left: 11.7vw; margin-top: 3vw;"></i>
+        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        </div>
+        <p class="job" style="margin-top: 2vw;"> Go Green Solutions empowers positive environmental impact through content and interactive tools.</p>
+        <div class="lineO"></div>
+        <span> Nurdin Hajo</span>
+      </div>
+
+      <div class="card">
+        <div class="card-border-top">
+        </div>
+        <i class="fas fa-quote-left" style="color: #fff; margin-left: 11.7vw; margin-top: 3vw;"></i>
+        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        </div>
+        <p class="job" style="margin-top: 2vw;"> Go Green Solutions is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
+        <div class="lineO"></div>
+        <span> John Ngigi</span>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+.card {
+ width: 25vw;
+ height: 30vw;
+ background-image: linear-gradient(144deg, green, green 60%, green);
+ /* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+ border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+}
+
+.card span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
+}
+
+.card .job {
+ font-weight: 400;
+ color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.2vw;
+}
+
+.card .img {
+width: 5vw;
+height: 5vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 1vw;
+} 
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 15%;
+    margin-top: 3vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  </style>
+</main5>
+
+
 <!-- footer -->
-<div class="footer" style="background-color: #1e1515; width: 100%; height: 15vw; padding: 0.5vw; display: flex; align-items: center; margin-bottom: -10vw;">
+<div class="footer" style="background-color: #1e1515; width: 99.5%; height: 15vw; padding: 0.5vw; display: flex; align-items: center; margin-bottom: -10vw;">
   <!-- social media images -->
   <div class="images" style="margin-right: auto; margin-top: -10vw;">
     <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
@@ -244,6 +353,23 @@
   
 <!-- email -->
   <p1 style="color: #fff; margin-top: -9vw; font-size: 1vw; font-weight: bold;">info@gogreensolutions.com/org</p1>
+
+    <!-- copyright and creator -->
+    <div class="footer1">  
+      <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
+      <p id="copyright" style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;"></p>
+      <p style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;">Creator: Victor Shammah</p>
+      <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        
+        // Set the current year in the copyright text
+        document.getElementById("copyright").innerHTML =
+          "&copy; " + currentYear + " Go Green Solutions. All rights reserved.";
+      </script>
+    </div>
+    </div>
+    
   
 
   <style>
@@ -251,7 +377,7 @@
       display: flex;
       align-items: center;
       gap: 1vw;
-      margin-right: 10vw;
+      margin-right: 8vw;
     }
 
     .logohead img {
