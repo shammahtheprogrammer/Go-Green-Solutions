@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Going Green</title>
+  <title>Go Green Solutions</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     /* Common styles */
@@ -59,7 +59,7 @@
       <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contactus.html">Contact</a></li>
       </ul>
     </div>
 
@@ -113,14 +113,16 @@
     <!-- line 4 -->
     <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold;"></div>
     <!-- images and paragraphs -->
-    <div style="display: flex; align-items: center;">
+    <div class="clients" style="display: flex; align-items: center; margin-bottom: 5vw;">
       <div class="card">
         <div class="card-border-top">
         </div>
-        <i class="fas fa-quote-left" style="color: #fff; margin-left: 11.7vw; margin-top: 3vw;"></i>
+        <div class="quotes">
+          <i class="fas fa-quote-left"></i>
+        </div>
         <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Go Green Solutions offers a comprehensive platform for individuals passionate about environmental conservation</p>
+        <p class="job" style="margin-top: 2vw;"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
         <div class="lineO"></div>
         <span> Victor Shammah</span>
       </div>
@@ -128,10 +130,12 @@
       <div class="card">
         <div class="card-border-top">
         </div>
-        <i class="fas fa-quote-left" style="color: #fff; margin-left: 11.7vw; margin-top: 3vw;"></i>
+        <div class="quotes">
+          <i class="fas fa-quote-left"></i>
+        </div>
         <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Go Green Solutions empowers positive environmental impact through content and interactive tools.</p>
+        <p class="job" style="margin-top: 2vw;">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
         <div class="lineO"></div>
         <span> Nurdin Hajo</span>
       </div>
@@ -139,13 +143,16 @@
       <div class="card">
         <div class="card-border-top">
         </div>
-        <i class="fas fa-quote-left" style="color: #fff; margin-left: 11.7vw; margin-top: 3vw;"></i>
+        <div class="quotes">
+          <i class="fas fa-quote-left"></i>
+        </div>
         <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Go Green Solutions is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
+        <p class="job" style="margin-top: 2vw;"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
         <div class="lineO"></div>
         <span> John Ngigi</span>
       </div>
+
 
     </div>
   </div>
@@ -190,6 +197,12 @@ height: 5vw;
  margin: auto;
  margin-top: 1vw;
 } 
+.card .quotes {
+  margin-top: 3vw;
+  font-size: 2vw;
+  margin-left: 11.7vw;
+  color: #fff ;
+}
 
 .lineO {
     border-top: 0.1vw solid #fff;
@@ -201,6 +214,19 @@ height: 5vw;
     margin-left: auto;
     margin-right: auto;
   }
+
+    /* Styles for mobile phones */
+    @media only screen and (max-width: 767px) {
+  .card .quotes {
+    /* Adjust <i> styles for mobile phones */
+    color: #fff;
+    margin-left: 11.5vw;
+    margin-top: 3vw;
+    } 
+    .clients {
+      margin-bottom: 5vw;
+    }
+}
   </style>
 </main3>
 
@@ -246,7 +272,7 @@ height: 5vw;
       display: flex;
       align-items: center;
       gap: 1vw;
-      margin-right: 8vw;
+      margin-right: 13.5vw;
     }
 
     .logohead img {
