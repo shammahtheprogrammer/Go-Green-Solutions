@@ -4,31 +4,73 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Go Green Solutions</title>
+  <title>Go Green Solutions Kenya</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <style>
-    /* Common styles */
-    .container {
-      display: flex;
-      align-items: center;
-    }
+</head>
+<body>
+  <!-- First main (main) -->
+  <main class="main1" style="background-color: #fafbfd; filter: brightness(95%);">
+    <!-- nav bar -->
+    <div class="containera">
+      <div class="header"><img src="./IMAGES/logo2.png" alt=""></div>
 
-    .container p,
-    .container img {
-      margin: 0;
-    }
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a>&nbsp;|</li>
+        <li><a href="about.html">About</a>&nbsp;|</li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+<!-- Introduction -->
+    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw;">
+      <h1 style="text-align: center;">Welcome To <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions Kenya</h1>
+              <!-- line 1 -->
+              <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
+  </div>
 
-    .containera {
+    <!-- content 1 -->
+    <div class="containerfirst">
+        <p>Empowering <a href="#" style="color: green; text-decoration: none;">Environmental Conservation</a> for <a href="#" style="color: red; text-decoration: none;">Future</a>  Generations.</p>
+
+        <!-- image 1 -->
+        <img src="./IMAGES/seedling.png" alt=""  style="border-radius: 2vw;">
+    </div>
+
+    <div class="paragrapher">
+        <p1>Join us in our mission to empower individuals to make a positive <br>
+            impact on the environment and create a sustainable future for <br> 
+            generations to come with Go Green Solutions.</p1>
+        </div>
+        <style>
+      .containera {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      
     }
 
-    .nav-list {
+      .containera .header {
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+      }
+      
+      .containera .header img {
+        width: 20vw;
+        height: 10vw;
+        border-radius: 1vw;
+        margin-inline: 1vw;
+        
+      }
+              
+      .nav-list {
       list-style: none;
       display: flex;
       align-items: center;
-      margin-top: 1.5vw;
+      margin-top: -5vw;
+      margin-right: 1.5vw;
     }
 
     .nav-list li {
@@ -47,41 +89,79 @@
     .nav-list li a:hover {
       color: green;
     }
-  </style>
-</head>
-<body>
-  <!-- First main (main) -->
-  <main style="background-color: #fafbfd; filter: brightness(95%);">
-    <!-- nav bar -->
-    <div class="containera">
-      <div class="header" style="font-weight: bold; display: flex; flex-direction: row; justify-content: center; align-items: center;"><img src="./IMAGES/Joker.jpeg" alt="" style="width: 5vw; height: 5vw; border-radius: 1vw; margin-inline: 1vw;"><a href="#" style="font-size: 1.5vw; text-decoration: none; color: green;">Go Green Solutions</a></div>
+    .containerfirst {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    .containerfirst img{
+      width: 50vw;
+      height: 40vw;
+    }
 
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-      </ul>
-    </div>
-<!-- Introduction -->
-    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw;">
-      <h1 style="text-align: center;">Welcome To <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions</h1>
-              <!-- line 1 -->
-              <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
-  </div>
+    .containerfirst p {
+      font-size: 5vw;
+      margin-top: -4vw;
+    }
 
-    <!-- content 1 -->
-    <div class="container" style="margin-top: 3vw;">
-        <p style="font-size: 5.5vw; margin-top: -4vw;">Empowering Environmental Conservation <br>for Future Generations.</p>
+    .containerfirst p,
+    .container img {
+      margin: 0;
+    }
+    .paragrapher {
+      margin-top: 2vw;
+      text-align: left;
+      margin-bottom: 5vw;
+      
+    }
 
-        <!-- image 1 -->
-        <img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 2vw; width: 50vw; height: 40vw;">
-    </div>
 
-    <div class="container" style="margin-top: 2vw; text-align: left; margin-bottom: 5vw;">
-        <p1 style="margin-bottom: 5vw;">Join us in our mission to empower individuals to make a positive <br>
-            impact on the environment and create a sustainable future for <br> 
-            generations to come with Go Green Solutions.</p1>
-        </div>
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+      .main1 {
+        height: 68vh;
+      }
+      .containera .header img {
+        width: 30vw;
+        height: 15vw;
+        border-radius: 1vw;
+        margin-inline: 1vw;
+        
+      }
+      .containerfirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 7vw;
+        font-size: 3vw;
+      }
+      .containerfirst p{
+      margin-left: 2vw;
+      margin-top: -8vw;
+      text-align: left;
+      justify-content: left;
+      align-items: left;
+      font-size: 5vw;
+    }
+      .containerfirst img {
+      width: 95vw;
+      height: auto;
+      margin-top: 3vw;
+      }
+    .containerfirst p1{
+      margin-left: 2vw;
+    }
+    .paragrapher {
+      justify-content: left;
+      text-align: left;
+      align-items: left;
+      margin-left: 2vw;
+      
+    }
+
+
+    }
+        </style>
 </main>
 
 <!-- second main (main1) -->
@@ -92,29 +172,88 @@
         <!-- line 1 -->
         <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 4vw;"></div>
 
-        <div style="display: flex; align-items: center; margin-top: 3vw; margin-bottom: 7vw;">
+        <div class="elements" style="display: flex; align-items: center; margin-top: 3vw; margin-bottom: 7vw;">
             <!-- benefits -->
             <ul style="flex: 0.95;">
               <h2>Benefits</h2>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Access to a comprehensive platform that combines educational resources, practical tips, and actionable steps for contributing to environmental conservation efforts</li>
-              <li style=" font-size: 1.5vw; font-weight: lighter;">Engaging content that empowers and inspires individuals to make a positive impact on the environment</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Interactive tools that allow individuals to track their progress and measure their impact on the environment</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">A supportive community of like-minded individuals who share a passion for environmental conservation</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Opportunities to learn about new technologies and innovations in the field of environmental conservation</li>
+              <li  style=" font-weight: lighter;">Access to a comprehensive platform that combines educational resources, practical tips, and actionable steps for contributing to environmental conservation efforts</li>
+              <li style="  font-weight: lighter;">Engaging content that empowers and inspires individuals to make a positive impact on the environment</li>
+              <li style=" font-weight: lighter;">Interactive tools that allow individuals to track their progress and measure their impact on the environment</li>
+              <li  style=" font-weight: lighter;">A supportive community of like-minded individuals who share a passion for environmental conservation</li>
+              <li style="font-weight: lighter;">Opportunities to learn about new technologies and innovations in the field of environmental conservation</li>
             </ul>
 
             <!-- features -->
             <ul style="flex: 0.73;">
               <h2>Features</h2>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Comprehensive platform for environmental conservation</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Educational resources on environmental preservation and protection</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Practical tips for individuals to contribute to conservation efforts</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Actionable steps to foster a sustainable future for generations to come</li>
-              <li style="font-size: 1.5vw; font-weight: lighter;">Engaging content, interactive tools, and a supportive community to empower and inspire individuals to make a positive impact on the environment</li>
+              <li style="font-weight: lighter;">Comprehensive platform for environmental conservation</li>
+              <li style="font-weight: lighter;">Educational resources on environmental preservation and protection</li>
+              <li style="font-weight: lighter;">Practical tips for individuals to contribute to conservation efforts</li>
+              <li style="font-weight: lighter;">Actionable steps to foster a sustainable future for generations to come</li>
+              <li style="font-weight: lighter;">Engaging content, interactive tools, and a supportive community to empower and inspire individuals to make a positive impact on the environment</li>
             </ul>
             
-            <img src="./IMAGES/Joker.jpeg" alt=""  style="margin-inline: 1vw; margin-top: 3vw; border-radius: 2vw; width: 40vw; height: 45vw;">
+            <img src="./IMAGES/slogan.png" alt=""  style="margin-inline: 1vw; margin-top: 3vw; border-radius: 2vw;">
           </div>
+          <style>
+
+          .elements ul li {
+                  font-size: 1.5vw;
+
+                }
+                .elements img {
+                  width: 40vw;
+                  height: 45vw;
+
+                }
+            /* Mobile responsivenes/display */
+             @media only screen and (min-width: 320px) and (max-width: 767px){
+
+              .elements {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  margin-top: 3vw;
+                  margin-bottom: 7vw;
+                  font-size: 10vw;
+                }
+
+                .elements ul {
+                  margin-bottom: 2vw;
+                  font-size: 7vw;
+                  align-items: left;
+                  justify-content: left;
+                  margin-top: -5vw;
+                  margin-bottom: 1vw;
+
+                }
+                .elements ul h2{
+                  color: green;
+                  margin-bottom: 1vw;
+                  font-size: 6vw;
+                  text-decoration: underline;
+                  
+                  
+                }
+                .elements ul li {
+                  margin-bottom: 2vw;
+                  align-items: left;
+                  justify-content: left;
+                  font-size: 3.5vw;
+                  margin-left: -5vw;
+
+                }
+
+                .elements img {
+                  width: 95vw;
+                  height: auto;
+
+                }
+
+
+
+             }
+          </style>
 </main1>
 
 <!-- third main (main2) -->
@@ -126,29 +265,29 @@
       <!-- line 2 -->
       <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 4vw;"></div>
       <!-- images and paragraphs -->
-      <div style="display: flex; align-items: center; margin-top: 3vw; margin-bottom: 5vw;">
-        <div class="container1" style="margin-top: 1vw; margin-inline: 3vw;">
-          <img src="./IMAGES/Joker.jpeg" alt=""  class="image" style="width: 25vw; height: 20vw;">
-          <h2 style="font-size: 1.5vw;">Eco-Education: Your Essential Resource</h2>
-          <p class="paragraph" style="font-size: 1.2vw;">
+      <div class="services" style="display: flex; align-items: center; margin-top: 3vw; margin-bottom: 5vw;">
+        <div class="services" style="margin-top: 1vw; margin-inline: 3vw;">
+          <img src="./IMAGES/ecoeducation.png" alt=""  class="image">
+          <h2>Eco-Education: Your Essential Resource</h2>
+          <p class="paragraph">
             Our educational resources provide comprehensive and professionally curated content to help students excel in their academic pursuits
           </p>
           
         </div>
         
-        <div class="container1" style="margin-top: 1vw; margin-inline: 3vw;">
-          <img src="./IMAGES/Joker.jpeg" alt="" class="image" style="width: 25vw; height: 20vw;">
-          <h2 style="font-size: 1.5vw;">Conservation Guides: Practical Tips for Sustainability</h2>
-          <p class="paragraph" style="font-size: 1.2vw;">
+        <div class="services" style="margin-top: 1vw; margin-inline: 3vw;">
+          <img src="./IMAGES/conservation.png" alt="" class="image">
+          <h2>Conservation Guides: Practical Tips for Sustainability</h2>
+          <p class="paragraph">
             Our Actionable Tips and Guides provide formal and comprehensive advice to help individuals and businesses achieve their goals efficiently.
           </p>
           
         </div>
         
-        <div class="container1" style="margin-top: 1vw; margin-inline: 3vw;">
-          <img src="./IMAGES/Joker.jpeg" alt="" class="image" style="width: 25vw; height: 20vw;">
-          <h2 style="font-size: 1.5vw;">Environmental Community Empowerment Program</h2>
-          <p class="paragraph" style="font-size: 1.2vw;">
+        <div class="services" style="margin-top: 1vw; margin-inline: 3vw;">
+          <img src="./IMAGES/empowerment.png" alt="" class="image">
+          <h2>Environmental Community Empowerment Program</h2>
+          <p class="paragraph">
             Our Community Engagement service facilitates meaningful interactions and involvement between organizations and their local communities.
           </p>
           
@@ -167,14 +306,52 @@
       .image {
         margin-bottom: 10px;
         border-radius: 2vw;
+        width: 25vw;
+        height: 20vw;
       }
   
       .paragraph {
-        font-size: 16px;
         line-height: 1.5;
         margin-inline: 5vw;
         margin-top: 2vw;
+        font-size: 1.2vw;
       }
+      .services h2{
+        font-size: 1.5vw;
+      }
+
+
+  /* Mobile responsivenes/display */
+ @media only screen and (min-width: 320px) and (max-width: 767px){
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 7vw;
+    
+  }
+
+  .services h2 {
+    margin-top: 5vw;
+    font-size: 5vw;
+    
+
+  }
+  .paragraph {
+    font-size: 3.5vw;
+  }
+
+  .services img {
+    width: 95vw;
+    height: auto;
+
+  }
+
+
+
+}
     </style>
   </main2>
 
@@ -187,17 +364,17 @@
       <!-- line 3 -->
       <div class="line" style="border-top: 0.1vw solid green; width: 10%; margin-top: 1vw; font-weight: bold; margin-bottom: 5vw;"></div>
       <!-- images and paragraphs -->
-      <div style="display: flex; align-items: center; margin-bottom: 5vw;">
+      <div class="services2" style="display: flex; align-items: center; margin-bottom: 5vw;">
         <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
-          <img src="./IMAGES/Joker.jpeg" alt=""  class="image" style="width: 29vw; height: 25vw;">
+          <img src="./IMAGES/portfolio1.png" alt=""  class="image" >
         </div>
         
         <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
-          <img src="./IMAGES/Joker.jpeg" alt="" class="image" style="width: 29vw; height: 25vw;">
+          <img src="./IMAGES/portfolio2.png" alt="" class="image" >
         </div>
         
         <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
-          <img src="./IMAGES/Joker.jpeg" alt=""  class="image" style="width: 29vw; height: 25vw;">
+          <img src="./IMAGES/porfolio3.png" alt=""  class="image" >
         </div>
       </div>
     </div>
@@ -209,11 +386,35 @@
         align-items: center;
         text-align: center;
       }
+
+      .services2 img {
+    width: 29vw;
+    height: 25;
+
+  }
+       /* Mobile responsivenes/display */
+ @media only screen and (min-width: 320px) and (max-width: 767px){
+
+  .services2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 7vw;
+    font-size: 3vw;
+  }
+  .services2 img {
+    width: 95vw;
+    height: auto;
+    margin-bottom: 2vw;
+
+  }
+ }
     </style>
   </main3>
 
 <!-- fivth main (main4) -->
-<main4 style=" margin-top: 3vw; background-color: #fafbfd; filter: brightness(95%); width: 100%;">
+<main4 class="main4" style=" margin-top: 3vw; background-color: #ffffff; filter: brightness(95%); width: 100%;">
   <!-- content 5 -->
   <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <!-- heading -->
@@ -221,42 +422,42 @@
     <!-- line 4 -->
     <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 5vw;"></div>
     <!-- images and paragraphs -->
-    <div style="display: flex; align-items: center; margin-bottom: 5vw;">
-      <div class="card">
+    <div class="card" style="display: flex; align-items: center; margin-bottom: 5vw;">
+      <div class="cardi">
         <div class="card-border-top">
         </div>
         <div class="quotes">
           <i class="fas fa-quote-left"></i>
         </div>
-        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        <div class="img"><img src="./IMAGES/shammah.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
+        <p class="job"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
         <div class="lineO"></div>
         <span> Victor Shammah</span>
       </div>
 
-      <div class="card">
+      <div class="cardi">
         <div class="card-border-top">
         </div>
         <div class="quotes">
           <i class="fas fa-quote-left"></i>
         </div>
-        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        <div class="img"><img src="./IMAGES/nur.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
+        <p class="job">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
         <div class="lineO"></div>
         <span> Nurdin Hajo</span>
       </div>
 
-      <div class="card">
+      <div class="cardi">
         <div class="card-border-top">
         </div>
         <div class="quotes">
           <i class="fas fa-quote-left"></i>
         </div>
-        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        <div class="img"><img src="./IMAGES/john.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
+        <p class="job"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
         <div class="lineO"></div>
         <span> John Ngigi</span>
       </div>
@@ -265,38 +466,26 @@
   </div>
 
   <style>
-    .card {
-      width: 25vw;
-      height: 30vw;
-      background-image: linear-gradient(144deg, green, green 60%, green);
-      /* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
-      border: none;
+    .cardi {
+width: 25vw;
+height: 30vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
  position: relative;
  margin: 3vw;
  font-family: inherit;
  border-radius: 3vw;
-}
-
-.card span {
- font-weight: 600;
- color: white;
- text-align: center;
- display: block;
- padding-top: 10px;
- font-size: 1.5vw;
 
 }
 
-.card .job {
-  font-weight: 400;
-  color: white;
- display: block;
- text-align: center;
- padding-top: 1px;
- font-size: 1.2vw;
+.cardi .quotes {
+  margin-top: 3vw;
+  font-size: 1.3vw;
+  margin-left: 11.7vw;
+  color: #fff ;
 }
-
-.card .img {
+.cardi .img {
   width: 5vw;
 height: 5vw;
  background: #e8e8e8;
@@ -305,12 +494,22 @@ height: 5vw;
  margin-top: 1vw;
 } 
 
-.card .quotes {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 11.7vw;
-  color: #fff ;
+.cardi .img img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+
 }
+.cardi .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.2vw;
+ margin-top: 2vw;
+}
+
 .lineO {
     border-top: 0.1vw solid #fff;
     width: 15%;
@@ -322,14 +521,99 @@ height: 5vw;
     margin-right: auto;
   }
 
+.cardi span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
+}
+
   /* Styles for mobile phones */
   @media only screen and (max-width: 767px) {
-  .card .quotes {
-    /* Adjust <i> styles for mobile phones */
-    color: #fff;
-    margin-left: 11.5vw;
+    .main4 {
+    height: 60vh;
+  }
+    .card  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 3vw;
-    } 
+    margin-bottom: 1vw;
+    font-size: 3vw;
+  }
+
+  .cardi {
+width: 95vw;
+height: 70vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+
+}
+.cardi .quotes {
+  margin-top: 5vw;
+  font-size: 3vw;
+  margin-left: 46vw;
+  color: #fff ;
+}
+
+.cardi .img {
+  width: 15vw;
+height: 15vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 2vw;
+} 
+
+.cardi .img img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+
+}
+.cardi .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 4vw;
+ margin-top: 5vw;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 30%;
+    margin-top: 7vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cardi span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 5vw;
+ margin-top: 3vw;
+
+}
+
 }
 </style>
 </main4>
@@ -355,14 +639,14 @@ height: 5vw;
   </main5> -->
 
 <!-- footer -->
-<div class="footer" style="background-color: #1e1515; width: 100%; height: 15vw; padding: 0.5vw; display: flex; align-items: center; margin-bottom: -10vw;">
+<div class="footer">
   <!-- social media images -->
   <div class="images" style="margin-right: auto; margin-top: -10vw;">
-    <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/facebook.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/twitter.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/instagram.jpeg" alt="" style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/youtube.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
+    <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/facebook.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/twitter.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/instagram.jpeg" alt="" style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/youtube.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
   </div>
 
  <!-- logo & logo head -->
@@ -372,12 +656,12 @@ height: 5vw;
   </div>
   
 <!-- email -->
-  <p1 style="color: #fff; margin-top: -9vw; font-size: 1vw; font-weight: bold;">info@gogreensolutions.com/org</p1>
+  <p1 class="email">info@gogreensolutions.com/org</p1>
 
   <!-- copyright and creator -->
 <div class="footer1">  <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
-  <p id="copyright" style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;"></p><br>
-  <p style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw; margin-top: 2vw;">Creator: Victor Shammah</p>
+  <p class="copyright" id="copyright"></p><br>
+  <p class="creator">Creator: Victor Shammah</p>
   <script>
     // Get the current year
     const currentYear = new Date().getFullYear();
@@ -391,11 +675,25 @@ height: 5vw;
   
 
   <style>
+    .footer {
+      background-color: #1e1515;
+      width: 100%;
+      height: 15vw;
+      padding: 0.5vw;
+      display: flex;
+      align-items: center;
+      margin-bottom: -10vw;
+    }
+        .images img{
+      width: 2vw;
+      height: 2vw;
+    }
         .logohead {
       display: flex;
       align-items: center;
       gap: 1vw;
-      margin-right: 13.5vw;
+      margin-right: 8.5vw;
+      
     }
 
     .logohead img {
@@ -412,6 +710,92 @@ height: 5vw;
       font-size: 1vw;
       margin-right: 15vw;
       margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1vw;
+      margin-top: 2vw;
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+    .footer {
+      width: 100%;
+      margin-top: 116vw;
+      height: 20vw;
+    }
+    .images{
+      margin-top: 1vw;
+    }
+    .images img{
+      width: 3.5vw;
+      height: 3.5vw;
+      
+    }
+    .footer1{
+      font-weight: bold;
+    }
+    .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: -9vw;
+      margin-top: 1vw;
+    }
+    .logohead img {
+      border-radius: 1vw;
+      width: 5vw;
+      height: 5vw;
+      margin-right: 25vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+    .logohead h1 {
+      color: white;
+      font-size: 2vw;
+      margin-right: 15vw;
+      margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: bold;
+      text-align: center;
+      margin-left: -92vw;
+      font-size: 1.5vw;
+      margin-top: 6vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: bold;
+      text-align: center;
+      margin-left: -92vw;
+      font-size: 1.5vw;
+      margin-top: 3vw;
+      margin-bottom: 1vw;
+    }
+
+
     }
   </style>
 
