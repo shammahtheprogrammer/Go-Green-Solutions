@@ -6,202 +6,518 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Go Green Solutions</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <style>
-    /* Common styles */
-    .container {
-      display: flex;
-      align-items: center;
-    }
-
-    .container p,
-    .container img {
-      margin: 0;
-    }
-
-    .containera {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .nav-list {
-      list-style: none;
-      display: flex;
-      align-items: center;
-      margin-top: 1.5vw;
-    }
-
-    .nav-list li {
-      margin-left: 2vw;
-    }
-
-    .nav-list li:first-child {
-      margin-left: 0;
-    }
-
-    .nav-list li a {
-      text-decoration: none;
-      color: black;
-    }
-
-    .nav-list li a:hover {
-      color: green;
-    }
-  </style>
 </head>
 <body>
 
   <!-- First main (main) -->
-  <main style="background-color: #fafbfd; filter: brightness(95%);">
+  <main class="main1" style="background-color: #fafbfd; filter: brightness(95%);">
+    <!-- nav bar -->
     <div class="containera">
-        
-        <div class="header" style="font-weight: bold; display: flex; flex-direction: row; justify-content: center; align-items: center;"><img src="./IMAGES/Joker.jpeg" alt="" style="width: 5vw; height: 5vw; border-radius: 1vw; margin-inline: 1vw;"><a href="#" style="font-size: 1.5vw; text-decoration: none; color: green;">Go Green Solutions</a></div>
+      <div class="header"><img src="./IMAGES/logo2.png" alt=""></div>
+
       <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a>&nbsp;|</li>
+        <li><a href="about.html">About</a>&nbsp;|</li>
         <li><a href="contactus.html">Contact</a></li>
       </ul>
     </div>
-
+<!-- Introduction -->
     <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw;">
-        <h1 style="text-align: center;">All About <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions</h1>
-                <!-- line 1 -->
-                <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
-    </div>
+      <h1 style="text-align: center;">All About <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions Kenya</h1>
+              <!-- line 1 -->
+              <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
+  </div>
+  <style>
+    /* pc display */
+          .containera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+
+    .containera .header {
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+    }
+    
+    .containera .header img {
+      width: 20vw;
+      height: 10vw;
+      border-radius: 1vw;
+      margin-inline: 1vw;
+      
+    }
+            
+    .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: -5vw;
+    margin-right: 1.5vw;
+  }
+
+  .nav-list li {
+    margin-left: 2vw;
+  }
+
+  .nav-list li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-list li a:hover {
+    color: green;
+  }
+/* mobile display */
+  @media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .containera .header img {
+      width: 30vw;
+      height: 15vw;
+      border-radius: 1vw;
+      margin-inline: 1vw;
+      
+    }
+    .nav-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-top: -5vw;
+      margin-right: 1.5vw;
+      margin-left: -5vw
+      
+    }
+
+    .nav-list li {
+      margin-left: 1vw;
+      font-size: 3.5vw;
+    }
+  }
+  /* tablet display */
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .containera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+
+    .containera .header {
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+    }
+    
+    .containera .header img {
+      width: 20vw;
+      height: 10vw;
+      border-radius: 1vw;
+      margin-inline: 1vw;
+      
+    }
+            
+    .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: -5vw;
+    margin-right: 1.5vw;
+  }
+
+  .nav-list li {
+    margin-left: 2vw;
+  }
+
+  .nav-list li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-list li a:hover {
+    color: green;
+  }
+  }
+      </style>
     </main>
 
 <!-- second main (main1) -->
 <main1 style="display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 3vw;">
   
-    <h1 style="text-align: left;">Mission Statement</h1>
+    <h1 class="heading2">Mission Statement</h1>
     <!-- line 1 -->
-    <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold;  display: flex; flex-direction: column; justify-content: left; align-items: left; margin-inline: 3vw;"></div>
+    <div class="line0"></div>
 <!-- paragraphs -->
-<p style="margin-top: 5vw;">Go Green Solutions is an organisation that is fully dedicated to developing and empowering disadvantaged communities, especially rural families through grassroots action, research, and education. The status of the local natural environment is key in development process. Since the poor and marginalized lack the resources needed to reduce the negative effects of a degraded environment, it affects them the hardest. In the same breath, individuals living with scarce resources are ussually dependent ob]n the close environment for thir daily survival.
+<p class="paragraph0">Go Green Solutions is an organisation that is fully dedicated to developing and empowering disadvantaged communities, especially rural families through grassroots action, research, and education. The status of the local natural environment is key in development process. Since the poor and marginalized lack the resources needed to reduce the negative effects of a degraded environment, it affects them the hardest. In the same breath, individuals living with scarce resources are usually dependent on the close environment for thier daily survival.
 </p>
   <br>
-  <p1>Let’s talk</p1>
+  <p1 class="paragraph1">Let’s talk</p1>
   <br>
-  <p2 style="margin-top: 1vw; font-weight: bold;">info@gogreensolutions.com/org</p2>
+  <p2 class="paragraph2">info@gogreensolutions.com/org</p2>
+  <style>
+    .heading2 {
+      text-align: left;
+      
+    }
+    .line0 {
+      border-top: 0.1vw solid green;
+      width: 20%;
+      margin-top: 1vw;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      margin-inline: 0.5vw;
+      
+    }
+    .paragraph0 {
+      margin-top: 5vw;
+      font-size: 2vw;
+    }
+    .paragraph2 {
+      margin-top: 1vw; 
+      font-weight: bold;
+      color: green;
+
+    }
+    /* mobile display */
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+      .heading2 {
+      text-align: center;
+      margin-top: 10vw;
+      
+    }
+    .line0 {
+      border-top: 0.1vw solid green;
+      width: 20%;
+      margin-top: 1vw;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-inline: 3vw;
+      margin-left: 38.1vw;
+    }
+    .paragraph0 {
+      margin-top: 5vw;
+      justify-content: left;
+      align-items: left;
+      text-align: left;
+      font-size: 4vw;
+    }
+    .paragraph2{
+      color: green;
+    }
+    }
+      /* tablet display */
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .heading2 {
+      text-align: left;
+      margin-left: 2vw;
+      
+    }
+    .line0 {
+      border-top: 0.1vw solid green;
+      width: 20%;
+      margin-top: 1vw;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      margin-inline: 3vw;
+      margin-left: 2vw;
+      
+    }
+    .paragraph0 {
+      margin-top: 5vw;
+      font-size: 2vw;
+      margin-left: 2vw;
+      margin-inline-end: 2vw;
+
+    }
+    .paragraph1 {
+      margin-left: 2vw;
+    }
+    .paragraph2 {
+      margin-top: 1vw; 
+      font-weight: bold;
+      color: green;
+      margin-left: 2vw;
+
+    }
+  }
+  </style>
 </main1>
 
 <!-- third main (main2) -->
 <main2>
   <!-- content -->
-  <div class="container" style="background-color: #fafbfd; filter: brightness(95%); display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vw; height: 60vw;">
-    <h1 style="text-align: center; margin-top: 5vw;">Team Story</h1>
+  <div class="containermain2">
+        <h1>Team Story</h1>
                     <!-- line 2-->
-                    <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 4vw;"></div>
+                    <div class="line1"></div>
 
-    <div class="container" style="margin-top: 3vw; display: flex; align-items: center;">
+    <div class="containerref">
       <div style="flex: 1;">
-        <p style="font-size: 2vw;">Go Green Solutions was founded by a group of passionate environmental enthusiasts who shared a common goal of preserving and protecting the environment. With years of experience in the industry, the team came together to create a unique platform that empowers individuals to make a positive impact on the environment. Together, they have built a supportive community that is dedicated to promoting sustainable living and environmental conservation.</p>
+        <p class="paragraph3">Go Green Solutions was founded by a group of passionate environmental enthusiasts who shared a common goal of preserving and protecting the environment. With years of experience in the industry, the team came together to create a unique platform that empowers individuals to make a positive impact on the environment. Together, they have built a supportive community that is dedicated to promoting sustainable living and environmental conservation.</p>
       </div>
 
       <!-- image -->
-      <img src="./IMAGES/Joker.jpeg" alt="" style="border-radius: 2vw; width: 50vw; height: 30vw;">
+      <img src="./IMAGES/meeting.png" alt="">
     </div>
   </div>
+  <style>
+    .containermain2 {
+      background-color: #fafbfd; filter: brightness(95%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5vw;
+      height: 55vw;
+    }
+    .containermain2 h1 {
+      text-align: center;
+      margin-top: -2vw;
+      
+    }
+    .containermain2 .line1 {
+      border-top: 0.1vw solid green;
+      width: 10%;
+      margin-top: 1vw;
+      font-weight: bold;
+      margin-bottom: 4vw;
+      
+
+    }
+
+    .containermain2 .containerref {
+      margin-top: 3vw; 
+      display: flex; 
+      align-items: center;
+
+    }
+    .containermain2 .paragraph3 {
+      font-size: 2vw;
+      margin-inline-start: 1vw;
+      margin-inline-end: 1vw;
+    }
+    .containermain2 img {
+      border-radius: 2vw;
+      width: 50vw; 
+      height: 28vw;
+
+    }
+
+ /* Mobile responsivenes/display */
+@media only screen and (min-width: 320px) and (max-width: 767px){
+  .containermain2 {
+    background-color: #fafbfd; filter: brightness(95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    height: 70vh;
+  }
+  .containermain2 .containerref {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 7vw;
+        font-size: 3vw;
+
+    }
+    .containermain2 h1 {
+      text-align: center;
+      margin-top: 10vw;
+    }
+    .containermain2 .line1 {
+      border-top: 0.1vw solid green;
+      width: 20%;
+      margin-top: -0.5vw;
+      font-weight: bold;
+      margin-bottom: 4vw;
+
+    }
+    .containermain2 .paragraph3 {
+      font-size: 4vw;
+      margin-top: -2vw;
+    }
+    .containermain2 img {
+      border-radius: 2vw;
+      width: 95vw; 
+      height: auto;
+      margin-top: 5vw;
+
+    }
+}
+      /* tablet display */
+      @media only screen and (min-width: 768px) and (max-width: 1023px){
+        .containermain2 {
+      background-color: #fafbfd; filter: brightness(95%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5vw;
+      height: 55vw;
+    }
+    .containermain2 h1 {
+      text-align: center;
+      margin-top: 2vw;
+      
+    }
+    .containermain2 .line1 {
+      border-top: 0.1vw solid green;
+      width: 20%;
+      margin-top: 1vw;
+      font-weight: bold;
+      margin-bottom: 7vw;
+
+    }
+    .containermain2 .containerref {
+      margin-top: 3vw; 
+      display: flex; 
+      align-items: center;
+      margin-top: -2vw;
+      
+
+    }
+    .containermain2 .paragraph3 {
+      font-size: 2vw;
+      margin-left: 2vw;
+      margin-inline-end: 2vw;
+    }
+    .containermain2 img {
+      border-radius: 2vw;
+      width: 50vw; 
+      height: 30vw;
+      margin-inline-end: 1vw;
+
+    } 
+      }
+  </style>
 </main2>
 
 <!-- fourth main (main3) -->
-<main3 style=" margin-top: 3vw; width: 100%;">
+<main3 class="main4" style=" margin-top: 3vw; width: 100%;">
   <!-- content 5 -->
-  <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vw;">
+  <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <!-- heading -->
-    <h1 style="text-align: center;">What My Clients Say</h1>
+    <h1>What My Clients Say</h1>
     <!-- line 4 -->
-    <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold;"></div>
+    <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 5vw;"></div>
     <!-- images and paragraphs -->
-    <div class="clients" style="display: flex; align-items: center; margin-bottom: 5vw;">
-      <div class="card">
+    <div class="card" style="display: flex; align-items: center; margin-bottom: 5vw;">
+      <div class="cardi">
         <div class="card-border-top">
         </div>
         <div class="quotes">
           <i class="fas fa-quote-left"></i>
         </div>
-        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        <div class="img"><img src="./IMAGES/shammah.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
+        <p class="job"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
         <div class="lineO"></div>
         <span> Victor Shammah</span>
       </div>
 
-      <div class="card">
+      <div class="cardi">
         <div class="card-border-top">
         </div>
         <div class="quotes">
           <i class="fas fa-quote-left"></i>
         </div>
-        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        <div class="img"><img src="./IMAGES/nur.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
+        <p class="job">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
         <div class="lineO"></div>
         <span> Nurdin Hajo</span>
       </div>
 
-      <div class="card">
+      <div class="cardi">
         <div class="card-border-top">
         </div>
         <div class="quotes">
           <i class="fas fa-quote-left"></i>
         </div>
-        <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
+        <div class="img"><img src="./IMAGES/john.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-        <p class="job" style="margin-top: 2vw;"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
+        <p class="job"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
         <div class="lineO"></div>
         <span> John Ngigi</span>
       </div>
-
 
     </div>
   </div>
 
   <style>
-.card {
- width: 25vw;
- height: 30vw;
- background-image: linear-gradient(144deg, green, green 60%, green);
- /* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
- border: none;
+   .main4 h1 {
+    text-align: center; 
+    margin-top: 5vw;
+    }
+    .cardi {
+width: 25vw;
+height: 30vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
  position: relative;
  margin: 3vw;
  font-family: inherit;
  border-radius: 3vw;
-}
-
-.card span {
- font-weight: 600;
- color: white;
- text-align: center;
- display: block;
- padding-top: 10px;
- font-size: 1.5vw;
 
 }
 
-.card .job {
- font-weight: 400;
- color: white;
- display: block;
- text-align: center;
- padding-top: 1px;
- font-size: 1.2vw;
+.cardi .quotes {
+  margin-top: 3vw;
+  font-size: 1.3vw;
+  margin-left: 11.7vw;
+  color: #fff ;
 }
-
-.card .img {
-width: 5vw;
+.cardi .img {
+  width: 5vw;
 height: 5vw;
  background: #e8e8e8;
  border-radius: 100%;
  margin: auto;
  margin-top: 1vw;
 } 
-.card .quotes {
-  margin-top: 3vw;
-  font-size: 2vw;
-  margin-left: 11.7vw;
-  color: #fff ;
+
+.cardi .img img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+
+}
+.cardi .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.2vw;
+ margin-top: 2vw;
 }
 
 .lineO {
@@ -215,70 +531,246 @@ height: 5vw;
     margin-right: auto;
   }
 
-    /* Styles for mobile phones */
-    @media only screen and (max-width: 767px) {
-  .card .quotes {
-    /* Adjust <i> styles for mobile phones */
-    color: #fff;
-    margin-left: 11.5vw;
-    margin-top: 3vw;
-    } 
-    .clients {
-      margin-bottom: 5vw;
-    }
+.cardi span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
 }
-  </style>
+
+  /* Styles for mobile phones */
+  @media only screen and (max-width: 767px) {
+    .main4 {
+    height: 60vh;
+  }
+  .main4 h1 {
+    text-align: center; 
+    margin-top: 10vw;
+    
+    }
+    .card  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+  }
+
+  .cardi {
+width: 95vw;
+height: 70vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+
+}
+.cardi .quotes {
+  margin-top: 5vw;
+  font-size: 3vw;
+  margin-left: 46vw;
+  color: #fff ;
+}
+
+.cardi .img {
+  width: 15vw;
+height: 15vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 2vw;
+} 
+
+.cardi .img img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+
+}
+.cardi .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 4vw;
+ margin-top: 5vw;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 30%;
+    margin-top: 7vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cardi span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 5vw;
+ margin-top: 3vw;
+
+}
+
+}
+      /* tablet display */
+      @media only screen and (min-width: 768px) and (max-width: 1023px){
+        .main4 h1 {
+    text-align: center; 
+    margin-top: 5vw;
+    height: 10vh;
+    }
+    .cardi {
+width: 25vw;
+height: 30vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+ margin-top: -1vw;
+
+}
+
+.cardi .quotes {
+  margin-top: 3vw;
+  font-size: 1.3vw;
+  margin-left: 11.7vw;
+  color: #fff ;
+}
+.cardi .img {
+  width: 5vw;
+height: 5vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 1vw;
+} 
+
+.cardi .img img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+
+}
+.cardi .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.5vw;
+ margin-top: 2vw;
+ margin-inline-start: 1vw;
+ margin-inline-end: 1vw;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 15%;
+    margin-top: 3vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cardi span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
+}
+      }
+</style>
 </main3>
 
 <!-- footer -->
-<div class="footer" style="background-color: #1e1515;  height: 15vw; padding: 0.5vw; display: flex; align-items: center; margin-bottom: -10vw;">
+<div class="footer">
   <!-- social media images -->
   <div class="images" style="margin-right: auto; margin-top: -10vw;">
-    <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/facebook.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/twitter.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/instagram.jpeg" alt="" style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    <a href=""><img src="./IMAGES/youtube.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
+    <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/facebook.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/twitter.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/instagram.jpeg" alt="" style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/youtube.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
   </div>
 
  <!-- logo & logo head -->
   <div class="logohead">
-    <img src="./IMAGES/Joker.jpeg" alt="">
-    <h1>Go Green Solutions</h1>
+    <img src="./IMAGES/logo2.png" alt="">
+    <h1></h1>
   </div>
   
 <!-- email -->
-  <p1 style="color: #fff; margin-top: -9vw; font-size: 1vw; font-weight: bold;">info@gogreensolutions.com/org</p1>
+  <p1 class="email">info@gogreensolutions.com/org</p1>
 
   <!-- copyright and creator -->
-  <div class="footer1">  
-    <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
-    <p id="copyright" style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;"></p>
-    <p style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;">Creator: Victor Shammah</p>
-    <script>
-      // Get the current year
-      const currentYear = new Date().getFullYear();
-      
-      // Set the current year in the copyright text
-      document.getElementById("copyright").innerHTML =
-        "&copy; " + currentYear + " Go Green Solutions. All rights reserved.";
-    </script>
-  </div>
-  </div>
+<div class="footer1">  <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
+  <p class="copyright" id="copyright"></p><br>
+  <p class="creator">Developer: Victor Shammah</p>
+  <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+    
+    // Set the current year in the copyright text
+    document.getElementById("copyright").innerHTML =
+      "&copy; " + currentYear + " Go Green Solutions. All rights reserved.";
+  </script>
+</div>
+</div>
   
 
   <style>
+    .footer {
+      background-color: #1e1515;
+      width: 99%;
+      height: 15vw;
+      padding: 0.5vw;
+      display: flex;
+      align-items: center;
+      margin-bottom: -10vw;
+    }
+        .images img{
+      width: 2.5vw;
+      height: 2.5vw;
+    }
         .logohead {
       display: flex;
       align-items: center;
       gap: 1vw;
-      margin-right: 13.5vw;
+      margin-right: 8.5vw;
+      margin-top: 2vw;
+      
     }
 
     .logohead img {
       border-radius: 1vw;
-      width: 3.5vw;
-      height: 3.5vw;
+      width: 10vw;
+      height: 7vw;
       margin-right: 25vw;
       margin-top: -10vw;
       margin-inline: 0.01vw;
@@ -290,7 +782,162 @@ height: 5vw;
       margin-right: 15vw;
       margin-top: -9vw;
     }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1vw;
+      margin-top: 2vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1vw;
+      margin-top: 1vw;
+    }
+/* mobile display */
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+    .footer {
+      width: 100%;
+      height: 20vw;
+    }
+    .images{
+      margin-top: 1vw;
+    }
+    .images img{
+      width: 3.5vw;
+      height: 3.5vw;
+      
+    }
+    .footer1{
+      font-weight: bold;
+    }
+    .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: -0.5vw;
+      margin-top: -1;
+      
+    }
+
+    .logohead img {
+      border-radius: 1vw;
+      width: 10vw;
+      height: 7vw;
+      margin-right: 25vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+
+    .logohead h1 {
+      color: white;
+      font-size: 1vw;
+      margin-right: 15vw;
+      margin-top: -5vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: bold;
+      text-align: center;
+      margin-left: -92vw;
+      font-size: 1.5vw;
+      margin-top: 6vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: bold;
+      text-align: center;
+      margin-left: -92vw;
+      font-size: 1.5vw;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+    }
+
+
+    }
+       /* tablet display */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .footer {
+      background-color: #1e1515;
+      width: 99%;
+      height: 15vw;
+      padding: 0.5vw;
+      display: flex;
+      align-items: center;
+       margin-bottom: 0.001vw;
+     
+      
+    }
+        .images img{
+      width: 3vw;
+      height: 3vw;
+    }
+        .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: 0.5vw;
+      margin-top: 2vw;
+      
+    }
+
+    .logohead img {
+      border-radius: 1vw;
+      width: 10vw;
+      height: 7vw;
+      margin-right: 25vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+
+    .logohead h1 {
+      color: white;
+      font-size: 1vw;
+      margin-right: 15vw;
+      margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1.5vw;
+      margin-top: 3vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1.2vw;
+      margin-top: 0.5vw;
+      
+    }
+}
   </style>
+
 </footer>
 </body>
 </html>
