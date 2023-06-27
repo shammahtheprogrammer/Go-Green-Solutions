@@ -21,7 +21,7 @@
       </ul>
     </div>
 <!-- Introduction -->
-    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw;">
+    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw; background-color: #fafbfd;">
       <h1 style="text-align: center;">Welcome To <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions Kenya</h1>
               <!-- line 1 -->
               <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
@@ -29,7 +29,7 @@
 
     <!-- content 1 -->
     <div class="containerfirst">
-        <p>Empowering <a href="#" style="color: green; text-decoration: none;">Environmental Conservation</a> for <a href="#" style="color: red; text-decoration: none;">Future</a>  Generations.</p>
+        <p>Empowering <a href="#" style="color: green; text-decoration: none; ">Environmental Conservation</a> for <a href="#" style="color: red; text-decoration: none;">Future</a>  Generations.</p>
 
         <!-- image 1 -->
         <img src="./IMAGES/seedling.png" alt=""  style="border-radius: 2vw;">
@@ -41,6 +41,12 @@
             generations to come with Go Green Solutions.</p1>
         </div>
         <style>
+
+ 
+.main1 {
+  height: 180vh;
+}
+
       .containera {
       display: flex;
       align-items: center;
@@ -96,7 +102,7 @@
     }
     .containerfirst img{
       width: 50vw;
-      height: 40vw;
+      height: 35vw;
     }
 
     .containerfirst p {
@@ -109,16 +115,17 @@
       margin: 0;
     }
     .paragrapher {
-      margin-top: 2vw;
+      margin-top: 4vw;
       text-align: left;
-      margin-bottom: 5vw;
+      font-size: 2vw;
       
     }
+  
 
-
+/* mobile display */
     @media only screen and (min-width: 320px) and (max-width: 767px){
       .main1 {
-        height: 68vh;
+        height: 80vh;
       }
       .containera .header img {
         width: 30vw;
@@ -127,6 +134,20 @@
         margin-inline: 1vw;
         
       }
+      .nav-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-top: -5vw;
+      margin-right: 1.5vw;
+      margin-left: -5vw
+      
+    }
+
+    .nav-list li {
+      margin-left: 1vw;
+      font-size: 3.5vw;
+    }
       .containerfirst {
         display: flex;
         flex-direction: column;
@@ -150,29 +171,115 @@
       }
     .containerfirst p1{
       margin-left: 2vw;
+      
     }
     .paragrapher {
       justify-content: left;
       text-align: left;
       align-items: left;
       margin-left: 2vw;
+      font-size: 5vw;
+      }
+    }
+
+      /* tablet display */
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .main1 {
+        height: 140vh;
+      }
+
+    .containera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       
     }
 
+      .containera .header {
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
+      }
+      
+      .containera .header img {
+        width: 20vw;
+        height: 10vw;
+        border-radius: 1vw;
+        margin-inline: 1vw;
+        
+      }
+              
+      .nav-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-top: -5vw;
+      margin-right: 1.5vw;
     }
+
+    .nav-list li {
+      margin-left: 2vw;
+    }
+
+    .nav-list li:first-child {
+      margin-left: 0;
+    }
+
+    .nav-list li a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .nav-list li a:hover {
+      color: green;
+    }
+    .containerfirst {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    .containerfirst img{
+      width: 50vw;
+      height: 30vw;
+    }
+
+    .containerfirst p {
+      font-size: 5vw;
+      margin-top: -4vw;
+      margin-left: 20vw;
+    }
+
+    .containerfirst p,
+    .container img {
+      margin: 0;
+      margin-left: 2.5vw;
+      height: 30vw;
+    }
+    .paragrapher {
+      margin-top: 8vw;
+      text-align: left;
+      margin-bottom: 5vw;
+      margin-left: 2vw;
+      font-size: 2.2vw;
+      
+  }
+}
+
         </style>
 </main>
 
 <!-- second main (main1) -->
     <main1>
     <!-- content 2 -->
-    <div class="container" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vw;">
+    <div class="container">
         <h1 style="text-align: center;">Features & Benefits</h1>
         <!-- line 1 -->
         <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 4vw;"></div>
 
-        <div class="elements" style="display: flex; align-items: center; margin-top: 3vw; margin-bottom: 7vw;">
+        <div class="elements">
             <!-- benefits -->
             <ul style="flex: 0.95;">
               <h2>Benefits</h2>
@@ -196,6 +303,21 @@
             <img src="./IMAGES/slogan.png" alt=""  style="margin-inline: 1vw; margin-top: 3vw; border-radius: 2vw;">
           </div>
           <style>
+            .container {
+              background-color: #ffffff; 
+              display: flex; 
+              flex-direction: column; 
+              justify-content: center; 
+              align-items: center; 
+              margin-top: 5vw;
+
+            }
+            .elements {
+              display: flex; 
+              align-items: center; 
+              margin-top: 3vw; 
+              margin-bottom: 7vw;
+                }
 
           .elements ul li {
                   font-size: 1.5vw;
@@ -203,11 +325,12 @@
                 }
                 .elements img {
                   width: 40vw;
-                  height: 45vw;
+                  height: 40vw;
 
                 }
             /* Mobile responsivenes/display */
              @media only screen and (min-width: 320px) and (max-width: 767px){
+
 
               .elements {
                   display: flex;
@@ -249,19 +372,41 @@
                   height: auto;
 
                 }
-
-
-
              }
+
+                   /* tablet display */
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .elements img {
+      width: 40vw;
+      height: 40vw;
+
+     }
+     .container {
+      background-color: #ffffff; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      margin-top: 2vw;
+
+            }
+   .elements {
+     display: flex; 
+    align-items: center; 
+    margin-top: -1vw; 
+     margin-bottom: 2vw;
+                }
+
+  }
           </style>
 </main1>
 
 <!-- third main (main2) -->
-<main2 style="background-color: #fafbfd; filter: brightness(95%); margin-top: 3vw; ">
+<main2 class="main2" style="background-color: #fafbfd; filter: brightness(95%); margin-top: 3vw; ">
     <!-- content 3 -->
-    <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+    <div class="containeri" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; ">
       <!-- heading -->
-      <h1 style="text-align: center; margin-top: 10vw;">What Services I'm Providing</h1>
+      <h1>What Services I'm Providing</h1>
       <!-- line 2 -->
       <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 4vw;"></div>
       <!-- images and paragraphs -->
@@ -296,6 +441,10 @@
     </div>
   
     <style>
+       .main2 h1 {
+        text-align: center;
+        margin-top: 10vw
+       }
       .container1 {
         display: flex;
         flex-direction: column;
@@ -348,19 +497,41 @@
     height: auto;
 
   }
-
-
-
 }
+
+   /* tablet display */
+ @media only screen and (min-width: 768px) and (max-width: 1023px){
+  .main2 h1 {
+        text-align: center;
+        margin-top: 6vw
+       }
+  .services img {
+    margin-bottom: 10px;
+    border-radius: 2vw;
+    width: 25vw;
+    height: 20vw;
+    margin-top: -2.5vw;
+    
+  }
+  .paragraph {
+        line-height: 1.5;
+        margin-inline: 5vw;
+        margin-top: 2vw;
+        font-size: 1.5vw;
+      }
+  .containeri h1 {
+   margin-top: 4vw;
+  }
+ }
     </style>
   </main2>
 
   <!-- fourth main (main3) -->
-<main3 style="background-color: #ffffff;  margin-top: 4vw; margin-bottom: 5vw;">
+<main3 class="main2" style="background-color: #ffffff;  margin-top: 4vw; margin-bottom: 5vw;">
     <!-- content 4 -->
     <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center;">
       <!-- heading -->
-      <h1 style="text-align: center; margin-top: 5vw;">My Portfolio</h1>
+      <h1>My Portfolio</h1>
       <!-- line 3 -->
       <div class="line" style="border-top: 0.1vw solid green; width: 10%; margin-top: 1vw; font-weight: bold; margin-bottom: 5vw;"></div>
       <!-- images and paragraphs -->
@@ -377,14 +548,39 @@
           <img src="./IMAGES/porfolio3.png" alt=""  class="image" >
         </div>
       </div>
+      <!-- x -->
+      <div class="services3" style="display: flex; align-items: center; margin-bottom: 5vw;">
+        <div class="container2" style=" background-color: #fafbfd; margin-inline: 2vw;">
+          <img src="./IMAGES/plant.png" alt=""  class="image" >
+        </div>
+        
+        <div class="container2" style=" background-color: #fafbfd; margin-inline: 2vw;">
+          <img src="./IMAGES/forum.png" alt="" class="image" >
+        </div>
+        
+        <div class="container2" style=" background-color: #fafbfd; margin-inline: 2vw;">
+          <img src="./IMAGES/fund.png" alt=""  class="image" >
+        </div>
+      </div>
     </div>
   
     <style>
+      .container0 h1 {
+        text-align: center; 
+        margin-top: 5vw;
+      }
       .container1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+      }
+      .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0.5vw;
       }
 
       .services2 img {
@@ -392,9 +588,21 @@
     height: 25;
 
   }
+  .services3 img {
+    width: 29vw;
+    height: 25;
+
+  }
        /* Mobile responsivenes/display */
  @media only screen and (min-width: 320px) and (max-width: 767px){
-
+  .container2 {
+        display: none;
+        /* flex-direction: column;
+        align-items: center;
+        text-align: center; */
+        
+        
+      }
   .services2{
     display: flex;
     flex-direction: column;
@@ -409,12 +617,44 @@
     margin-bottom: 2vw;
 
   }
+  .services3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -1vw;
+    margin-bottom: 7vw;
+    font-size: 3vw;
+  }
+  .services3 img {
+    width: 95vw;
+    height: auto;
+    margin-bottom: 2vw;
+
+  }
  }
+    /* tablet display */
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+      .container0 h1 {
+        text-align: center; 
+        margin-top: 1.5vw;
+      } 
+      .services2 img {
+    width: 29vw;
+    height: 25;
+    margin-inline: 0.5vw;
+    }
+    .services3 img {
+    width: 29vw;
+    height: 25;
+    margin-inline: 0.5vw;
+    }
+  }
+
     </style>
   </main3>
 
 <!-- fivth main (main4) -->
-<main4 class="main4" style=" margin-top: 3vw; background-color: #ffffff; filter: brightness(95%); width: 100%;">
+<main4 class="main4">
   <!-- content 5 -->
   <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <!-- heading -->
@@ -466,6 +706,14 @@
   </div>
 
   <style>
+    .main4 {
+      margin-top: 3vw;
+       background-color: #ffffff; 
+       filter: brightness(95%); 
+       width: 100%;
+       height: 30vh;
+
+    }
     .cardi {
 width: 25vw;
 height: 30vw;
@@ -615,28 +863,85 @@ height: 15vw;
 }
 
 }
+/* tablet display */
+     /* tablet display */
+      @media only screen and (min-width: 768px) and (max-width: 1023px){
+        .main4 h1 {
+    text-align: center; 
+    margin-top: 5vw;
+    height: 10vh;
+    }
+    .cardi {
+width: 25vw;
+height: 30vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+ margin-top: -1vw;
+
+}
+
+.cardi .quotes {
+  margin-top: 3vw;
+  font-size: 1.3vw;
+  margin-left: 11.7vw;
+  color: #fff ;
+}
+.cardi .img {
+  width: 5vw;
+height: 5vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 1vw;
+} 
+
+.cardi .img img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+  margin-left: -0.0vw;
+
+}
+.cardi .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.5vw;
+ margin-top: 2vw;
+ margin-inline-start: 1vw;
+ margin-inline-end: 1vw;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 15%;
+    margin-top: 3vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.cardi span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
+}
+      }
 </style>
 </main4>
-
-  <!-- sixth main (main5) -->
-  <!-- <main5 style="background-color: #ffffff;  margin-top: 4vw; margin-bottom: 5vw;"> -->
-    <!-- content 4 -->
-    <!-- <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center;"> -->
-      <!-- heading -->
-      <!-- <h1 style="text-align: center; margin-top: 5vw;">Stay In Touch</h1> -->
-      <!-- form -->
-      <!-- <p style="margin-top: 1vw;">Enter your email address to register to our newsletter subscription!</p>
-      <form action="" method="post" >
-        <input required="required" type="email" id="email" name="subscriber_email" autocomplete="off" placeholder="Enter email address" style="width: 50vw; margin-top: 1vw; height: 3vw; background-color: #fafafa; border-color: #333333; font-size: 1.5vw; border-width: 1px;">
-      </form>
-      <button style="background-color:#004e98; border-radius: 1vw; width: 10vw; height: 4vw; margin-top: 1vw;"><a href="" style="text-decoration: none; color: white; font-weight: bold;">Subscribe</a></button> -->
-
-    <!-- </div>
-  
-    <style>
-
-    </style>
-  </main5> -->
 
 <!-- footer -->
 <div class="footer">
@@ -651,8 +956,8 @@ height: 15vw;
 
  <!-- logo & logo head -->
   <div class="logohead">
-    <img src="./IMAGES/Joker.jpeg" alt="">
-    <h1>Go Green Solutions</h1>
+    <img src="./IMAGES/logo2.png" alt="">
+    <h1></h1>
   </div>
   
 <!-- email -->
@@ -661,7 +966,7 @@ height: 15vw;
   <!-- copyright and creator -->
 <div class="footer1">  <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
   <p class="copyright" id="copyright"></p><br>
-  <p class="creator">Creator: Victor Shammah</p>
+  <p class="creator">Developer: Victor Shammah</p>
   <script>
     // Get the current year
     const currentYear = new Date().getFullYear();
@@ -677,29 +982,31 @@ height: 15vw;
   <style>
     .footer {
       background-color: #1e1515;
-      width: 100%;
+      width: 99%;
       height: 15vw;
       padding: 0.5vw;
       display: flex;
       align-items: center;
-      margin-bottom: -10vw;
+      margin-top: 100vh;
+      
     }
         .images img{
-      width: 2vw;
-      height: 2vw;
+      width: 2.5vw;
+      height: 2.5vw;
     }
         .logohead {
       display: flex;
       align-items: center;
       gap: 1vw;
-      margin-right: 8.5vw;
+      margin-right: 9vw;
+      margin-top: 2vw;
       
     }
 
     .logohead img {
       border-radius: 1vw;
-      width: 3.5vw;
-      height: 3.5vw;
+      width: 10vw;
+      height: 7vw;
       margin-right: 25vw;
       margin-top: -10vw;
       margin-inline: 0.01vw;
@@ -723,6 +1030,7 @@ height: 15vw;
       text-align: center;
       margin-left: -95vw;
       font-size: 1vw;
+      margin-top: 2vw;
     }
     .footer1 .creator {
       color:#fff;
@@ -730,14 +1038,14 @@ height: 15vw;
       text-align: center;
       margin-left: -95vw;
       font-size: 1vw;
-      margin-top: 2vw;
+      margin-top: 1vw;
     }
-
+/* mobile display */
     @media only screen and (min-width: 320px) and (max-width: 767px){
     .footer {
       width: 100%;
-      margin-top: 116vw;
       height: 20vw;
+      margin-top: 65vh;
     }
     .images{
       margin-top: 1vw;
@@ -754,22 +1062,25 @@ height: 15vw;
       display: flex;
       align-items: center;
       gap: 1vw;
-      margin-right: -9vw;
-      margin-top: 1vw;
+      margin-right: -0.5vw;
+      margin-top: -1;
+      
     }
+
     .logohead img {
       border-radius: 1vw;
-      width: 5vw;
-      height: 5vw;
+      width: 10vw;
+      height: 7vw;
       margin-right: 25vw;
       margin-top: -10vw;
       margin-inline: 0.01vw;
     }
+
     .logohead h1 {
       color: white;
-      font-size: 2vw;
+      font-size: 1vw;
       margin-right: 15vw;
-      margin-top: -9vw;
+      margin-top: -5vw;
     }
     .email {
       color: #fff;
@@ -791,12 +1102,76 @@ height: 15vw;
       text-align: center;
       margin-left: -92vw;
       font-size: 1.5vw;
-      margin-top: 3vw;
+      margin-top: 2vw;
       margin-bottom: 1vw;
     }
-
-
     }
+
+    /* tablet display */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .footer {
+      background-color: #1e1515;
+      width: 99%;
+      height: 15vw;
+      padding: 0.5vw;
+      display: flex;
+      align-items: center;
+      margin-top: 60vh;
+      margin-bottom: 1vw;
+      
+    }
+        .images img{
+      width: 3vw;
+      height: 3vw;
+    }
+        .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: 0.5vw;
+      margin-top: 2vw;
+      
+    }
+
+    .logohead img {
+      border-radius: 1vw;
+      width: 10vw;
+      height: 7vw;
+      margin-right: 25vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+
+    .logohead h1 {
+      color: white;
+      font-size: 1vw;
+      margin-right: 15vw;
+      margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1.5vw;
+      margin-top: 3vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1.2vw;
+      margin-top: 0.5vw;
+      
+    }
+}
   </style>
 
 </footer>
