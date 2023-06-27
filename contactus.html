@@ -6,74 +6,161 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Go Green Solutions</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <style> 
-    /* Common styles */
-    .container {
-      display: flex;
-      align-items: center;
-    }
+</head>
+<body>
 
-    .container p,
-    .container img {
-      margin: 0;
-    }
+  <!-- First main (main) -->
+  <main class="main" style="background-color: #fafbfd; filter: brightness(95%);">
+    <!-- nav bar -->
+    <div class="containera">
+      <div class="header"><img src="./IMAGES/logo2.png" alt=""></div>
 
-    .containera {
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a>&nbsp;|</li>
+        <li><a href="about.html">About</a>&nbsp;|</li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </div>
+<!-- Introduction -->
+    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw;">
+      <h1 style="text-align: center;">Get In touch With <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions Kenya</h1>
+              <!-- line 1 -->
+              <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
+  </div>
+  <style>
+          .containera {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      
     }
 
+    .containera .header {
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+    }
+    
+    .containera .header img {
+      width: 20vw;
+      height: 10vw;
+      border-radius: 1vw;
+      margin-inline: 1vw;
+      
+    }
+            
+    .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: -5vw;
+    margin-right: 1.5vw;
+  }
+
+  .nav-list li {
+    margin-left: 2vw;
+  }
+
+  .nav-list li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-list li a:hover {
+    color: green;
+  }
+
+
+  @media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .containera .header img {
+      width: 30vw;
+      height: 15vw;
+      border-radius: 1vw;
+      margin-inline: 1vw;
+      
+    }
     .nav-list {
       list-style: none;
       display: flex;
       align-items: center;
-      margin-top: 1.5vw;
+      margin-top: -5vw;
+      margin-right: 1.5vw;
+      margin-left: -5vw
+      
     }
 
     .nav-list li {
-      margin-left: 2vw;
+      margin-left: 1vw;
+      font-size: 3.5vw;
+    }
+  }
+         /* tablet display */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .containera {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
     }
 
-    .nav-list li:first-child {
-      margin-left: 0;
-    }
+    .containera .header {
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
 
-    .nav-list li a {
-      text-decoration: none;
-      color: black;
     }
-
-    .nav-list li a:hover {
-      color: green;
+    
+    .containera .header img {
+      width: 20vw;
+      height: 10vw;
+      border-radius: 1vw;
+      margin-inline: 1vw;
+      
     }
-  </style>
-</head>
-<body>
-    <!-- First main (main) -->
-  <main style="background-color: #fafbfd; filter: brightness(95%);">
-    <div class="containera">
-        
-        <div class="header" style="font-weight: bold; display: flex; flex-direction: row; justify-content: center; align-items: center;"><img src="./IMAGES/Joker.jpeg" alt="" style="width: 5vw; height: 5vw; border-radius: 1vw; margin-inline: 1vw;"><a href="#" style="font-size: 1.5vw; text-decoration: none; color: green;">Go Green Solutions</a></div>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contactus.html">Contact</a></li>
-      </ul>
-    </div>
+            
+    .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: -5vw;
+    margin-right: 1.5vw;
+  }
 
-    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 3vw;">
-        <h1 style="text-align: center;">All About <a href="#" style="color: green; text-decoration: none;">Go Green</a> Solutions</h1>
-                <!-- line 1 -->
-                <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 10vw;"></div>
-    </div>
+  .nav-list li {
+    margin-left: 2vw;
+  }
+
+  .nav-list li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-list li a:hover {
+    color: green;
+  }
+}
+      </style>
     </main>
 
    <!-- second main (main1) -->
-<main3 style="background-color: #ffffff;  margin-top: 4vw; margin-bottom: 5vw;">
+<main1 class="main1">
      <!-- images and paragraphs -->
-     <div style="display: flex; align-items: center;">
-        <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
+     <div class="containerfirst">
+        <div class="container1" style="margin-top: 1vw;  margin-inline: 2vw;">
           <div class="cardi">
             <div class="contacts">
                 <i class="fas fa-mobile-alt fa-2x" style="margin-top: 4vw; color: green;"></i>
@@ -84,19 +171,19 @@
           </div>
         </div>
         
-        <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
+        <div class="container1" style="margin-top: 1vw;  margin-inline: 2vw;">
           <div class="cardi">
               <div class="contacts">
                 <i class="fas fa-home fa-2x" style="margin-top: 4vw; color: green;"></i>
               </div>
              <div class="para">
-                <p>Longonot Place</p>
+                <p>Longonot Place, Kijabe Street</p>
              </div>
 
           </div>
         </div>
         
-        <div class="container1" style="margin-top: 1vw; background-color: #fafbfd; margin-inline: 2vw;">
+        <div class="container1" style="margin-top: 1vw;  margin-inline: 2vw;">
           <div class="cardi">
               <div class="contacts">
                 <i class="fas fa-envelope fa-2x" style="margin-top: 4vw; color: green;"></i>
@@ -110,6 +197,18 @@
     </div>
   
     <style>
+      .main1 {
+        background-color: #ffffff; 
+         margin-top: 3vw; 
+         margin-bottom: 5vw;
+
+      }
+      .containerfirst {
+        display: flex; 
+        align-items: center;
+        margin-top: 1vw;
+
+      }
         .container1 {
           display: flex;
           flex-direction: column;
@@ -124,40 +223,119 @@
           border-radius: 1vw;
           background: #e0e0e0;
           margin-inline: 1vw;
+          margin-left: 1.7vw;
+          margin-top: 5vw;
+          box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+                      
+          }
+/* mobile display */
+  @media only screen and (max-width: 767px) {
+     .main1 {
+        background-color: #ffffff; 
+         margin-top: 4vw; 
+         margin-bottom: 5vw;
+
+      }
+      .containerfirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 7vw;
+        font-size: 3vw;
+      } 
+       .container1 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          
+        }
+        .cardi {
+          width: 65vw;
+          height: auto;
+          border-radius: 1vw;
+          background: #e0e0e0;
+          margin-inline: 1vw;
           margin-top: 8vw;
           box-shadow: 20px 20px 60px #bebebe,
                       -20px -20px 60px #ffffff;
                       
           }
-
-          @media only screen and (max-width: 767px) {
-            .container1 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-        }
         .cardi .contacts{
             font-size: 2vw;
             margin-top: -1vw;
         }
+
         .cardi .para{
-            font-size: 3vw;
+            font-size: 4vw;
+            margin-top: -1vw;
             
         }
            
         .cardi .part{
-            font-size: 2vw;
+            font-size: 3.5vw;
             margin-top: 3.5vw;
             
         }
           }
+                   /* tablet display */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .main1 {
+        background-color: #ffffff; 
+         margin-top: 3vw; 
+         margin-bottom: 5vw;
+
+      }
+      .containerfirst {
+        display: flex; 
+        align-items: center;
+        margin-top: 1vw;
+
+      }
+        .container1 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          
+        }
+
+        .cardi {
+          width: 28vw;
+          height: 15vw;
+          border-radius: 1vw;
+          background: #e0e0e0;
+          margin-inline: 0.2vw;
+          margin-top: 5vw;
+          box-shadow: 20px 20px 60px #bebebe,
+                      -20px -20px 60px #ffffff;
+                      
+          }
+          .cardi .contacts{
+            font-size: 2vw;
+            margin-top: -1vw;
+        }
+
+        .cardi .para{
+            font-size: 1.7vw;
+            margin-top: 1vw;
+            
+        }
+           
+        .cardi .part{
+            font-size: 1.7vw;
+            margin-top: 1vw;
+            
+        }
+}
       </style>
-  </main3> 
+  </main1> 
 
 
    <!-- third main (main2) -->
-<main3 style="background-color: #ffffff;  margin-top: 10vw;">
+<main2 class="main2">
     <!-- content 4 -->
     <div class="container0" style="background-color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 20vw;">
         <div class="card1">
@@ -175,7 +353,7 @@
                 <textarea name="Message" placeholder="Enter your message" rows="3" onsubmit="clearInputFields()"></textarea>
               </div>
             
-              <button style="margin-left: 17vw;" type="submit" class="submit">
+              <button class="button" type="submit" class="submit">
                 Submit
               </button>
             </form>
@@ -192,6 +370,11 @@
   
     <style>
         /* PC responsiveness */
+.main2 {
+  background-color: #ffffff; 
+  margin-top: 10vw;
+  
+}
 .card1 {
   width: 50vw;
   height: 30vw;
@@ -200,6 +383,8 @@
   margin-inline: 1vw;
   margin-top: -10vw;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin-bottom: 10vw;
+  margin-left: 3vw;
 }
 
 .form {
@@ -224,6 +409,22 @@
   outline: none;
   border: 1px solid #e5e7eb;
   margin: 8px 0;
+}
+.form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+  margin-left: 15vw;
+  margin-top: 2vw;
+  width: 10vw;
+  height: 2.5vw;
+  border-radius: 2vw;
+  
+}
+.form button:hover {
+  color: #000;
+  font-weight: bold;
+  background-color: green;
 }
 
 .input-container input {
@@ -255,7 +456,7 @@
 @media only screen and (max-width: 767px) {
     .card1 {
 
-  width: 60vw;
+  width: 95vw;
   height: 100vw;
   border-radius: 1vw;
   background: #e0e0e0;
@@ -265,6 +466,82 @@
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
+.form {
+  display: block;
+  margin-left: 2.5vw;
+}
+
+.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input,
+.form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+.form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+  margin-left: 34vw;
+  margin-top: 5vw;
+  width: 20vw;
+  height: 3vh;
+  color: green;
+  font-weight: bold;
+  border-radius: 2vw;
+}
+
+
+.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 70vw;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  margin-left: 1.5vw;
+}
+
+.input-container textarea {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 70vw;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  margin-left: 1.5vw;
+  border: none;
+  margin-top: 1vw;
+}
+}
+
+/* Tablet responsiveness */
+@media only screen and (min-width: 768px) and (max-width: 1023px) 
+{
+    .card1 {
+  width: 50vw;
+  height: 45vw;
+  border-radius: 1vw;
+  background: #e0e0e0;
+  margin-inline: 1vw;
+  margin-top: -10vw;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
 .form {
   display: block;
   margin-left: 5vw;
@@ -287,6 +564,18 @@
   outline: none;
   border: 1px solid #e5e7eb;
   margin: 8px 0;
+}
+.form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+  margin-left: 15vw;
+  width: 10vw;
+  height: 3vw;
+  margin-top: 2vw;
+  color: green;
+  font-weight: bold;
+  border-radius: 2vw;
 }
 
 .input-container input {
@@ -315,220 +604,533 @@
   margin-top: 1vw;
 }
 }
-
-/* Tablet responsiveness */
-@media only screen and (min-width: 768px) and (max-width: 1023px) 
-{
-    .card1 {
-  width: 50vw;
-  height: 45vw;
-  border-radius: 1vw;
-  background: #e0e0e0;
-  margin-inline: 1vw;
-  margin-top: -10vw;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-}
-}
     </style>
-  </main3>
+  </main2>
 
-  <!-- fourth main (main3) -->
-<main3 style=" margin-top: 3vw; width: 100%;">
-    <!-- content 5 -->
-    <div class="container0" style="background-color: #fafbfd; filter: brightness(95%); display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5vw; width: 100%;">
-      <!-- heading -->
-      <h1 style="text-align: center;">What My Clients Say</h1>
-      <!-- line 4 -->
-      <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold;"></div>
-      <!-- images and paragraphs -->
-      <div class="clients1" style="display: flex; align-items: center;">
-        <div class="card">
-          <div class="card-border-top">
-          </div>
-          <div class="quotes">
-            <i class="fas fa-quote-left"></i>
-          </div>
-          <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
-          </div>
-          <p class="job" style="margin-top: 2vw;"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
-          <div class="lineO"></div>
-          <span> Victor Shammah</span>
+ <!-- fourth main (main3) -->
+<main3 class="main4">
+  <!-- content 5 -->
+  <div class="container0" style="background-color: #fafbfd; filter: brightness(95%); display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <!-- heading -->
+    <h1>What My Clients Say</h1>
+    <!-- line 4 -->
+    <div class="line" style="border-top: 0.1vw solid green; width: 20%; margin-top: 1vw; font-weight: bold; margin-bottom: 5vw;"></div>
+    <!-- images and paragraphs -->
+    <div class="card" style="display: flex; align-items: center; margin-bottom: 5vw;">
+      <div class="card2">
+        <div class="card-border-top">
         </div>
-  
-        <div class="card">
-          <div class="card-border-top">
-          </div>
-          <div class="quotes">
-            <i class="fas fa-quote-left"></i>
-          </div>
-          <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
-          </div>
-          <p class="job" style="margin-top: 2vw;">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
-          <div class="lineO"></div>
-          <span> Nurdin Hajo</span>
+        <div class="quotes">
+          <i class="fas fa-quote-left"></i>
         </div>
-  
-        <div class="card">
-          <div class="card-border-top">
-          </div>
-          <div class="quotes">
-            <i class="fas fa-quote-left"></i>
-          </div>
-          <div class="img"><img src="./IMAGES/Joker.jpeg" alt=""  style="border-radius: 10vw; width: 5vw; height: 5vw;">
-          </div>
-          <p class="job" style="margin-top: 2vw;"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
-          <div class="lineO"></div>
-          <span> John Ngigi</span>
+        <div class="img"><img src="./IMAGES/shammah.jpeg" alt=""  style="border-radius: 10vw;">
         </div>
-  
-  
+        <p class="job"> Chelimo & Environment offers a comprehensive platform for individuals passionate about environmental conservation</p>
+        <div class="lineO"></div>
+        <span> Victor Shammah</span>
       </div>
+
+      <div class="card2">
+        <div class="card-border-top">
+        </div>
+        <div class="quotes">
+          <i class="fas fa-quote-left"></i>
+        </div>
+        <div class="img"><img src="./IMAGES/nur.jpeg" alt=""  style="border-radius: 10vw;">
+        </div>
+        <p class="job">Chelimo & Environment empowers positive environmental impact through content and interactive tools.</p>
+        <div class="lineO"></div>
+        <span> Nurdin Hajo</span>
+      </div>
+
+      <div class="card2">
+        <div class="card-border-top">
+        </div>
+        <div class="quotes">
+          <i class="fas fa-quote-left"></i>
+        </div>
+        <div class="img"><img src="./IMAGES/john.jpeg" alt=""  style="border-radius: 10vw;">
+        </div>
+        <p class="job"> Chelimo & Environment is a supportive community dedicated to promoting a sustainable future for generations to come.</p>
+        <div class="lineO"></div>
+        <span> John Ngigi</span>
+      </div>
+
     </div>
-  
-    <style>
-  .card {
-   width: 25vw;
-   height: 30vw;
-   background-image: linear-gradient(144deg, green, green 60%, green);
-   /* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
-   border: none;
-   position: relative;
-   margin: 3vw;
-   font-family: inherit;
-   border-radius: 3vw;
+  </div>
+
+  <style> 
+  .main4 {
+    margin-top: 3vw; 
+    width: 100%;
   }
-  
-  .card span {
-   font-weight: 600;
-   color: white;
-   text-align: center;
-   display: block;
-   padding-top: 10px;
-   font-size: 1.5vw;
-  
-  }
-  
-  .card .job {
-   font-weight: 400;
-   color: white;
-   display: block;
-   text-align: center;
-   padding-top: 1px;
-   font-size: 1.2vw;
-  }
-  
-  .card .img {
+   .main4 h1 {
+    text-align: center; 
+    margin-top: 5vw;
+    }
+    .card2 {
+width: 25vw;
+height: 30vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+
+}
+
+.card2 .quotes {
+  margin-top: 3vw;
+  font-size: 1.3vw;
+  margin-left: 11.7vw;
+  color: #fff ;
+}
+.card2 .img {
+  width: 5vw;
+height: 5vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 1vw;
+} 
+
+.card2 .img img {
   width: 5vw;
   height: 5vw;
-   background: #e8e8e8;
-   border-radius: 100%;
-   margin: auto;
-   margin-top: 1vw;
-  } 
-  .card .quotes {
-    margin-top: 3vw;
-    font-size: 2vw;
-    margin-left: 11.7vw;
-    color: #fff ;
-  }
-  
-  .lineO {
-      border-top: 0.1vw solid #fff;
-      width: 15%;
-      margin-top: 3vw;
-      margin-bottom: none;
-      font-weight: bold;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-      /* Styles for mobile phones */
-      @media only screen and (max-width: 767px) {
-    .card .quotes {
-      /* Adjust <i> styles for mobile phones */
-      color: #fff;
-      margin-left: 11.5vw;
-      margin-top: 3vw;
-      font-size: 1.2vw;
-      } 
-      .card .job {
-   font-weight: 500;
-   font-size: 10vw;
-   color: white;
-   display: block;
-   text-align: center;
-   padding-top: 1px;
-   font-size: 1.2vw;
-  }
-  .clients1 {
-    margin-bottom: 5vw;
-  }
-  }
-    </style>
-  </main3>
+  object-fit: cover;
 
-  <!-- footer -->
-<div class="footer" style="background-color: #1e1515;  height: 15vw; padding: 0.5vw; display: flex; align-items: center; margin-bottom: -10vw;">
-    <!-- social media images -->
-    <div class="images" style="margin-right: auto; margin-top: -10vw;">
-      <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-      <a href=""><img src="./IMAGES/facebook.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-      <a href=""><img src="./IMAGES/twitter.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-      <a href=""><img src="./IMAGES/instagram.jpeg" alt="" style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-      <a href=""><img src="./IMAGES/youtube.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw; width: 2vw; height: 2vw;"></a>
-    </div>
-  
-   <!-- logo & logo head -->
-    <div class="logohead">
-      <img src="./IMAGES/Joker.jpeg" alt="">
-      <h1>Go Green Solutions</h1>
-    </div>
+}
+.card2 .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.2vw;
+ margin-top: 2vw;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 15%;
+    margin-top: 3vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.card2 span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
+}
+
+  /* mobile display */
+  @media only screen and (max-width: 767px) {
+    .main4 {
+    height: 60vh;
+  }
+  .main4 h1 {
+    text-align: center; 
+    margin-top: 10vw;
     
-  <!-- email -->
-    <p1 style="color: #fff; margin-top: -9vw; font-size: 1vw; font-weight: bold;">info@gogreensolutions.com/org</p1>
-  
-    <!-- copyright and creator -->
-    <div class="footer1">  
-      <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
-      <p id="copyright" style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;"></p>
-      <p style="color:#fff; font-weight: light; text-align: center; margin-left: -95vw; font-size: 1vw;">Creator: Victor Shammah</p>
-      <script>
-        // Get the current year
-        const currentYear = new Date().getFullYear();
-        
-        // Set the current year in the copyright text
-        document.getElementById("copyright").innerHTML =
-          "&copy; " + currentYear + " Go Green Solutions. All rights reserved.";
-      </script>
-    </div>
-    </div>
+    }
+    .card  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+  }
+
+  .card2 {
+width: 95vw;
+height: 70vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+
+}
+.card2 .quotes {
+  margin-top: 5vw;
+  font-size: 3vw;
+  margin-left: 46vw;
+  color: #fff ;
+}
+
+.card2 .img {
+  width: 15vw;
+height: 15vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 2vw;
+} 
+
+.card2 .img img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+
+}
+.card2 .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 4vw;
+ margin-top: 5vw;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 30%;
+    margin-top: 7vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.card2 span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 5vw;
+ margin-top: 3vw;
+
+}
+}
+/* Tablet responsiveness */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .main4 {
+    background-color: #fafbfd; 
+    filter: brightness(95%);
+    margin-top: 5vw;
+  }
+  .main4 h1 {
+    text-align: center; 
     
+    }
+    .card2 {
+width: 25vw;
+height: 30vw;
+background-image: linear-gradient(144deg, green, green 60%, green);
+/* background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda); */
+border: none;
+ position: relative;
+ margin: 3vw;
+ font-family: inherit;
+ border-radius: 3vw;
+
+}
+
+.card2 .quotes {
+  margin-top: 3vw;
+  font-size: 1.3vw;
+  margin-left: 11.7vw;
+  color: #fff ;
+}
+.card2 .img {
+  width: 5vw;
+height: 5vw;
+ background: #e8e8e8;
+ border-radius: 100%;
+ margin: auto;
+ margin-top: 1vw;
+} 
+
+.card2 .img img {
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+
+}
+.card2 .job {
+  font-weight: 400;
+  color: white;
+ display: block;
+ text-align: center;
+ padding-top: 1px;
+ font-size: 1.2vw;
+ font-size: 1.5vw;
+ margin-top: 2vw;
+ margin-inline-start: 1vw;
+ margin-inline-end: 1vw;
+}
+
+.lineO {
+    border-top: 0.1vw solid #fff;
+    width: 15%;
+    margin-top: 3vw;
+    margin-bottom: none;
+    font-weight: bold;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.card2 span {
+ font-weight: 600;
+ color: white;
+ text-align: center;
+ display: block;
+ padding-top: 10px;
+ font-size: 1.5vw;
+
+}
+}
+</style>
+</main3>
+
+<!-- footer -->
+<div class="footer">
+  <!-- social media images -->
+  <div class="images" style="margin-right: auto; margin-top: -10vw;">
+    <a href=""><img src="./IMAGES/tiktok.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/facebook.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/twitter.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/instagram.jpeg" alt="" style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+    <a href=""><img src="./IMAGES/youtube.jpeg" alt=""  style="margin: 0 0.5vw; border-radius: 1vw;"></a>
+  </div>
+
+ <!-- logo & logo head -->
+  <div class="logohead">
+    <img src="./IMAGES/logo2.png" alt="">
+    <h1></h1>
+  </div>
   
-    <style>
-          .logohead {
-        display: flex;
-        align-items: center;
-        gap: 1vw;
-        margin-right: 13.5vw;
-      }
+<!-- email -->
+  <p1 class="email">info@gogreensolutions.com/org</p1>
+
+  <!-- copyright and creator -->
+<div class="footer1">  <div class="containero" style=" display: flex; flex-direction: column; justify-content: left; align-items: left; margin-top: 5vw;">
+  <p class="copyright" id="copyright"></p><br>
+  <p class="creator">Developer: Victor Shammah</p>
+  <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+    
+    // Set the current year in the copyright text
+    document.getElementById("copyright").innerHTML =
+      "&copy; " + currentYear + " Go Green Solutions. All rights reserved.";
+  </script>
+</div>
+</div>
   
-      .logohead img {
-        border-radius: 1vw;
-        width: 3.5vw;
-        height: 3.5vw;
-        margin-right: 25vw;
-        margin-top: -10vw;
-        margin-inline: 0.01vw;
-      }
-  
-      .logohead h1 {
-        color: white;
-        font-size: 1vw;
-        margin-right: 15vw;
-        margin-top: -9vw;
-      }
-    </style>
-  </footer>
+
+  <style>
+    .footer {
+      background-color: #1e1515;
+      width: 99%;
+      height: 15vw;
+      padding: 0.5vw;
+      display: flex;
+      align-items: center;
+      margin-bottom: -10vw;
+    }
+        .images img{
+      width: 2.5vw;
+      height: 2.5vw;
+    }
+        .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: 8.5vw;
+      margin-top: 2vw;
+      
+    }
+
+    .logohead img {
+      border-radius: 1vw;
+      width: 10vw;
+      height: 7vw;
+      margin-right: 25vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+
+    .logohead h1 {
+      color: white;
+      font-size: 1vw;
+      margin-right: 15vw;
+      margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1vw;
+      margin-top: 2vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1vw;
+      margin-top: 1vw;
+
+    }
+/* mobile display */
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+    .footer {
+      width: 100%;
+      height: 20vw;
+    }
+    .images{
+      margin-top: 1vw;
+    }
+    .images img{
+      width: 3.5vw;
+      height: 3.5vw;
+      
+    }
+    .footer1{
+      font-weight: bold;
+    }
+    .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: -1vw;
+      margin-top: 1vw;
+    }
+    .logohead img {
+      border-radius: 1vw;
+      width: 10vw;
+      height: 7vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+    .logohead h1 {
+      color: white;
+      font-size: 2vw;
+      margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: bold;
+      text-align: center;
+      margin-left: -92vw;
+      font-size: 1.5vw;
+      margin-top: 6vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: bold;
+      text-align: center;
+      margin-left: -92vw;
+      font-size: 1.5vw;
+      margin-top: 2vw;
+      margin-bottom: 1vw;
+    }
+
+
+    }
+
+          /* tablet display */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+  .footer {
+      background-color: #1e1515;
+      width: 99%;
+      height: 15vw;
+      padding: 0.5vw;
+      display: flex;
+      align-items: center;
+       margin-bottom: 0.001vw;
+      
+     
+      
+    }
+        .images img{
+      width: 3vw;
+      height: 3vw;
+    }
+        .logohead {
+      display: flex;
+      align-items: center;
+      gap: 1vw;
+      margin-right: 0.5vw;
+      margin-top: 2vw;
+      
+    }
+
+    .logohead img {
+      border-radius: 1vw;
+      width: 10vw;
+      height: 7vw;
+      margin-right: 25vw;
+      margin-top: -10vw;
+      margin-inline: 0.01vw;
+    }
+
+    .logohead h1 {
+      color: white;
+      font-size: 1vw;
+      margin-right: 15vw;
+      margin-top: -9vw;
+    }
+    .email {
+      color: #fff;
+      margin-top: -9vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+    .footer1 .copyright {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1.5vw;
+      margin-top: 3vw;
+    }
+    .footer1 .creator {
+      color:#fff;
+      font-weight: light;
+      text-align: center;
+      margin-left: -95vw;
+      font-size: 1.2vw;
+      margin-top: 0.5vw;
+      
+    }
+}
+  </style>
+
+</footer>
 </body>
 </html>
